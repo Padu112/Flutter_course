@@ -11,7 +11,7 @@ ProductControl(this.addProduct);
     return RaisedButton(
           color: Theme.of(context).primaryColor, //context has general metadata like the theme colors
           onPressed: () {
-            addProduct('Sweets');
+            addProduct({'title': 'Spam','image':'assets/foods.jpg'});
           },
           child: Text('Add Product'),
         );
